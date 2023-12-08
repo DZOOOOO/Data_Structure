@@ -1,2 +1,4 @@
-package dataStructure.basicMath;public class Gong {
+package dataStructure.basicMath;
+
+public class Gong {
 }
