@@ -12,6 +12,6 @@ public class ClassStart3 {
         student2.name = "학생2";
         student2.age = 16;
         student2.grade = 80;
-
+        
     }
 }
