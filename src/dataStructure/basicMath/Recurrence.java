@@ -2,6 +2,7 @@ package dataStructure.basicMath;
 
 public class Recurrence {
 
+    // 3의 배수 n번째 수
     static int recursion1(int n) {
         if (n == 1) {
             return 1;
@@ -9,6 +10,7 @@ public class Recurrence {
         return 3 * recursion1(n - 1);
     }
 
+    // 수의 합
     static int recursion2(int n) {
         if (n == 1) {
             return 1;
@@ -16,6 +18,7 @@ public class Recurrence {
         return n + recursion2(n - 1);
     }
 
+    // 재귀함수
     static int recursion3(int n) {
         if (n < 3) {
             return 1;
